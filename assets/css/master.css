@@ -6,28 +6,17 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
-  width: 80%;
+.container-nav {
+  width: 70%;
   margin: 0 auto;
-  height: 70px;
   display: flex;
   justify-content: space-between;
-
+  padding-top: 40px;
 }
 
 /* LAYOUT */
 
 /* HEADER-NAV */
-header {
-  background-color: #0C325A;
-}
-
-nav {
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-}
-
 .nav-left {
   height: 100%;
   display: flex;
@@ -50,6 +39,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+  padding: 0 19px;
 }
 
 ul a {
@@ -57,24 +47,30 @@ ul a {
   color: gray;
 }
 
-/* .logo {
-  display: inline-block;
-} */
-
 .btn {
-  border-radius: 5px;
-  padding: 9px;
-  background-color: #7CBB02;
+  border-radius: 10px;
+  padding: 10px 24px;
+  background-color: rgb(25, 28, 31);
+
 }
 
 .btn-login {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 9px 30px;
+  border-radius: 10px;
+  padding: 10px 24px;
+  background-color: rgba(230, 230, 230, 0.6);
+  color: rgb(25, 28, 31);
+}
+/* features */
+.container-card {
+  width: 70%;
+  margin: 0 auto;
 }
 
-.btn-list-right {
-  margin-top: 6px;
+.features-card {
+  background-color: yellow;
+  height: 300px;
+  width: 700px;
+  float: right;
 }
 /* HEADER-NAV */
 
@@ -84,7 +80,7 @@ ul a {
 }
 
 .text-black {
-  color: #000;
+  color: rgb(25, 28, 31);
 }
 
 .text-gray {
