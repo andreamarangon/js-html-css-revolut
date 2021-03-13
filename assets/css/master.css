@@ -11,7 +11,9 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 40px;
+  padding-bottom: 40px;
   position: relative;
 }
 
@@ -36,6 +38,7 @@
 
 nav ul {
   list-style: none;
+  padding: 0;
 }
 
 nav .container-nav .nav-left > ul >li,
@@ -46,7 +49,11 @@ nav .container-nav .nav-right > ul >li {
 
 ul a {
   text-decoration: none;
-  color: gray;
+  color: #8B959E;
+}
+
+ul a:hover{
+  color: rgb(25, 28, 31);
 }
 
 .btn {
@@ -62,21 +69,21 @@ ul a {
   background-color: rgba(230, 230, 230, 0.6);
   color: rgb(25, 28, 31);
 }
+
 /* features */
 .container-card {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
 
 .card {
   box-shadow: rgb(0 0 0 / 4%) 0px 0px 4px 0px, rgb(0 0 0 / 8%) 0px 8px 16px 0px;
   border-radius: 0.5rem;
-  padding: 10px 20px;
+  padding: 10px 25px;
 }
 
 .features-card {
   width: 800px;
-  /* float: right; */
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -88,7 +95,7 @@ ul a {
 }
 
 .card ul li {
-  padding: 10px 0;
+  padding: 14px 0;
 }
 
 svg {
@@ -97,13 +104,16 @@ svg {
   color: #fff;
   padding: 4px;
   border-radius: 50%;
+  vertical-align: middle;
 }
 
 .title-list span {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   color: #CED5DB;
+  vertical-align: middle;
 }
+
 /* small card */
 .small-card {
   position: absolute;
