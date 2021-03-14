@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  
-  //metto di default la card features-card hide
+
+  //metto di default la card features-card non visibile
   $('.features-card').hide();
 
   //al passaggio del mouse la features-card di drop-menu-features diventa visibile
@@ -22,8 +22,8 @@ $(document).ready(function() {
     $('.features-card').hide();
     //all'uscita del mause da card il tittle torna grigio
     $(this).children('.title-drop-menu').children('a').css('color','#A3A3A3');
-
   });
+  
   //all'uscita del mouse card di drop-menu diventa invisibile
   $('.drop-menu').mouseleave(function() {
     $(this).children('.card').hide();
